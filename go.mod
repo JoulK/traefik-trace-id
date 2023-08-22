@@ -1,3 +1,3 @@
-module gitlab.com/betting-software/traefik-add-trace-id
+module github.com/JoulK/traefik-trace-id
 
 go 1.15
