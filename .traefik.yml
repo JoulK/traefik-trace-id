@@ -1,0 +1,8 @@
+displayName: Add Trace ID
+type: middleware
+import: gitlab.com/betting-software/traefik-add-trace-id
+summary: 'Add a header for tracing if one does not exist already'
+testData:
+  headerName: 'X-Trace-Id'
+  headerPrefix: ''
+  verbose: false
