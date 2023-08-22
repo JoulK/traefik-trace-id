@@ -1,4 +1,4 @@
-package traefik_add_trace_id
+package traefik_trace_id
 
 import (
 	"context"
