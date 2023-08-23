@@ -1,7 +1,7 @@
-displayName: Add Trace ID header
+displayName: TraceID Header
 type: middleware
 import: github.com/JoulK/traefik-trace-id
-summary: 'Add a header for tracing if one does not exist already'
+summary: 'If trace header doesn't exist - generate new one'
 testData:
   headerName: 'X-Trace-Id'
   headerPrefix: ''
